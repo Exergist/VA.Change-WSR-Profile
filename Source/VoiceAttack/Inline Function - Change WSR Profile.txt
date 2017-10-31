@@ -4,7 +4,7 @@
   //http://microsoft.public.speech-tech.narkive.com/QryVJKhs/switch-sapi-profiles-in-c
   //https://www.codeproject.com/Questions/699504/Where-i-can-get-this-interop-speechlib-dll-file-in
 
-//Perform recognition profile switching using C# inline function that leverages Interop.SpeechLib.dll
+//Change Windows Speech Recognition profile using C# inline function that leverages Interop.SpeechLib.dll
 //Requires Interop.SpeechLib.dll be placed in the root VA folder (same location as VA's executable file)
 
 using System;
