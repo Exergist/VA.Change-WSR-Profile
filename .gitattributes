@@ -1,2 +1,2 @@
 $ cat .gitattributes
-*.vap linguist-language=text.XML
+*.vap linguist-language=text.xml
