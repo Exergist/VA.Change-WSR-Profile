@@ -1,0 +1,7 @@
+E:\GJS\VoiceAttack\Apps\WSR Profile Change\Apps\WSR Profile Change\Source\WSR Profile Change\bin\Debug\WSR Profile Change.exe.config
+E:\GJS\VoiceAttack\Apps\WSR Profile Change\Apps\WSR Profile Change\Source\WSR Profile Change\bin\Debug\WSR Profile Change.exe
+E:\GJS\VoiceAttack\Apps\WSR Profile Change\Apps\WSR Profile Change\Source\WSR Profile Change\bin\Debug\WSR Profile Change.pdb
+E:\GJS\VoiceAttack\Apps\WSR Profile Change\Apps\WSR Profile Change\Source\WSR Profile Change\obj\Debug\WSR Profile Change.csprojResolveAssemblyReference.cache
+E:\GJS\VoiceAttack\Apps\WSR Profile Change\Apps\WSR Profile Change\Source\WSR Profile Change\obj\Debug\WSR Profile Change.csproj.CoreCompileInputs.cache
+E:\GJS\VoiceAttack\Apps\WSR Profile Change\Apps\WSR Profile Change\Source\WSR Profile Change\obj\Debug\WSR Profile Change.exe
+E:\GJS\VoiceAttack\Apps\WSR Profile Change\Apps\WSR Profile Change\Source\WSR Profile Change\obj\Debug\WSR Profile Change.pdb
