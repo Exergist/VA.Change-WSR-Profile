@@ -21,4 +21,4 @@ As you might guess the first command allows the user to change WSR profiles usin
 
 ## How do I install it?
 1. You will need a licensed copy of VoiceAttack to import the "Change WSR Profile.vap" file. This may be obtained at www.voiceattack.com or through [Steam](http://store.steampowered.com/app/583010/VoiceAttack/). 
-2. Navigate to the [releases](https://github.com/Exergist/VA.Change-WSR-Profile/releases) section and download the most recent version. 
+2. Navigate to the [releases section](https://github.com/Exergist/VA.Change-WSR-Profile/releases) and download the most recent version. 
