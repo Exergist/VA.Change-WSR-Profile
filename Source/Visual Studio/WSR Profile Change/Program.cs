@@ -1,4 +1,4 @@
-﻿//References:
+//References:
   //https://stackoverflow.com/questions/13719579/equivalent-code-of-createobject-in-c-sharp
   //https://msdn.microsoft.com/en-us/library/ee125457(v=vs.85).aspx
   //http://microsoft.public.speech-tech.narkive.com/QryVJKhs/switch-sapi-profiles-in-c
@@ -8,7 +8,7 @@ using System;
 using System.Windows.Forms;
 using SpeechLib;
 
-namespace WSR_Profile_Change
+namespace WSR_Change_Profile
 {
     class Program
     {
@@ -24,7 +24,7 @@ namespace WSR_Profile_Change
             string result = "";
             string profileList = "";
             string[] myProfiles = null;
-            string switchProfile = "three"; //Profile name that user wants to activate
+            string switchProfile = "myProfile"; //Profile name that user wants to activate
 
             //Get all profile information
             Type RecogType = Type.GetTypeFromProgID("SAPI.SpInProcRecognizer");
