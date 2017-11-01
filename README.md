@@ -41,7 +41,7 @@ First and foremost, **[read the VoiceAttack manual](http://voiceattack.com/Voice
 
 If you are having problems with the VA software itself there is a dedicated [VoiceAttack User Forum](http://voiceattack.com/SMF/index.php) where you may seek help. The community is active and full of dedicated users who will help you with your general VA issues. Plus it's a great place to learn more about VA so you can do other super cool things as well as check out profiles and commands that other users have shared. 
 
-If you are having problems specifically with the VA.Change-WSR-Profile then head over to the VoiceAttack User Forum, check out the "Issues" section to get an idea for how to provide enough information to request assistance, and then post to the "VA.Change-WSR-Profile" thread within the "Profiles, Commands and Plugins" section. 
+Waiting on official release of VA.Change-WSR-Profile on the VoiceAttack Forum before starting to provide help specifically for VA.Change-WSR-Profile. ~If you are having problems specifically with the VA.Change-WSR-Profile then head over to the VoiceAttack User Forum, check out the "Issues" section to get an idea for how to provide enough information to request assistance, and then post to the "VA.Change-WSR-Profile" thread within the "Profiles, Commands and Plugins" section.~
 
 ## Full Disclosure
 I am one of the moderators on the VoiceAttack User Forums, and I receive no benefits from the use or promotion of the VoiceAttack software. 
