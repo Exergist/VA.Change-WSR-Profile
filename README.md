@@ -1,2 +1,2 @@
 # VA.Change-WSR-Profile
-VoiceAttack commands to change the active Windows Speech Recognition profile
+A general purpose profile for changing the active Windows Speech Recognition profile with VoiceAttack (www.voiceattack.com).
