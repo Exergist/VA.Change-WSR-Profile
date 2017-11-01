@@ -37,7 +37,7 @@ This is going to be wordy, but I'm trying cater this to all users and be thoroug
 **BE ADVISED. If you try to change WSR profiles with VA while the Windows Speech Properties window is open (see above image) you will receive confirmation from VA that the switch occurred but it will not be implemented by Windows. The Windows Speech Properties window must be closed for the profile change to take effect.**
 
 ## Help I have issues!
-First and foremost, **[read the VA manual](http://voiceattack.com/VoiceAttackHelp.pdf)**. Yes it's long but it covers most of what is needed for you to understand and use VoiceAttack. Plus it covers more advanced stuff which is great to know so you can do other super cool things. 
+First and foremost, **[read the VoiceAttack manual](http://voiceattack.com/VoiceAttackHelp.pdf)**. Yes it's long but it covers most of what is needed for you to understand and use VoiceAttack. Plus it covers more advanced stuff which is great to know so you can do other super cool things. 
 
 If you are having problems with the VA software itself there is a dedicated [VoiceAttack User Forum](http://voiceattack.com/SMF/index.php) where you may seek help. The community is active and full of dedicated users who will help you with your general VA issues. Plus it's a great place to learn more about VA so you can do other super cool things as well as check out profiles and commands that other users have shared. 
 
