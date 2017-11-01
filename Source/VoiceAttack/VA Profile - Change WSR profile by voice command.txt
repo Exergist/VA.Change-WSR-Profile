@@ -1,0 +1,13 @@
+//Allows user to switch Windows Speech Recognition (WSR) profiles by voice command
+//The profile names contained within the bracketed dynamic command section must exactly match the corresponding WSR profile names
+
+//Extract name of requested WSR profile from spoken command
+Set Text [ActivatedProfile] to '{CMDSEGMENT:1}'
+
+//Change WSR profile using C# inline function
+Inline C# Function: Change WSR Profile, wait until execution finishes
+
+//Output information
+Write '[Blue] Current Profile = {TXT:CurrentProfile}' to log
+Write '[Blue] Available Profiles = {TXT:ProfileList}' to log
+Write '[Blue] {TXT:ProfileChangeResult}' to log
