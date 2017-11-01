@@ -1,6 +1,6 @@
 # VA.Change-WSR-Profile
 ## What is it?
-A general purpose VoiceAttack profile for changing the active Windows Speech Recognition profile. 
+A VoiceAttack profile for changing the active Windows Speech Recognition profile. 
 
 ## A VoiceAttack and Windows Speech Recognition Primer
 ### Wait, what is VoiceAttack (VA)?
