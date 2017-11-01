@@ -45,3 +45,8 @@ If you are having problems with the VA software itself there is a dedicated [Voi
 
 ## Full Disclosure
 I am one of the moderators on the VoiceAttack User Forums, and I receive no benefits from the use or promotion of the VoiceAttack software. 
+
+## Thanks
+Many thanks goes out to Gary (VoiceAttack developer) for giving the world this amazing piece of software. You sir are the man. 
+
+Additional appreciation goes out to the VoiceAttack Forum moderators and community for helping to build a great place to learn and develop cool stuff with VoiceAttack.
