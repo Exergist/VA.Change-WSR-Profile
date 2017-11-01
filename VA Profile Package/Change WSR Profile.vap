@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-16"?>
 <Profile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Id>d37df0f7-b4c4-4b94-9c8b-9afe5051e05b</Id>
+  <Id>3a03a8a6-41dd-4c16-a369-c770338bc1d1</Id>
   <Name>Change WSR Profile</Name>
   <Commands>
     <Command>
-      <Id>dd88eb2a-ae95-4f63-a741-49a5820d36cc</Id>
+      <Id>b2424e7d-0b33-4790-8c96-d422777ae2c6</Id>
       <CommandString>Change Recognition Profile</CommandString>
       <ActionSequence>
         <CommandAction>
@@ -14,7 +14,7 @@
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>883f348c-c6c7-4f5f-a2f2-2af1c7ca5463</Id>
+          <Id>afe8501f-34b3-43d6-83d4-3e6c34ca173e</Id>
           <ActionType>Comment</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -46,7 +46,7 @@
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>7ac73eeb-ddf1-4b1b-8f75-4411dfe3ffaa</Id>
+          <Id>63e18801-2b19-476f-82e6-cfc59c0d54a8</Id>
           <ActionType>Comment</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -78,7 +78,7 @@
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>3c63bfdb-89e6-45a0-ae23-203eb8246ad0</Id>
+          <Id>b317a313-4d35-4abd-ae74-88704d8bcebc</Id>
           <ActionType>Comment</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -110,7 +110,7 @@
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>561d6c83-0fae-4607-80b3-083269a6c13f</Id>
+          <Id>1e3bac31-67cf-428a-8372-ec1a22ce59a2</Id>
           <ActionType>Comment</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -143,7 +143,7 @@
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>ba7f44a4-8c4e-49eb-82a7-45279b9c03a5</Id>
+          <Id>a74a9830-d7c4-4533-87e3-392830f30692</Id>
           <ActionType>TextSet</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -181,7 +181,7 @@
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>4a420d50-fd4c-4dca-9035-ab0616063774</Id>
+          <Id>f3311d75-187c-420c-bf8d-9e12445330a5</Id>
           <ActionType>Comment</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -214,7 +214,7 @@
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>c0fc5504-17c0-45b1-843b-910412d9934c</Id>
+          <Id>09623ec0-9311-4b34-9d95-b5623fbc8358</Id>
           <ActionType>TextSet</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -252,7 +252,7 @@
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>f539e6d2-6c83-42a4-9032-894082b390de</Id>
+          <Id>75beccea-5640-4f99-a95f-863c3b4aa80a</Id>
           <ActionType>TextSet</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -290,7 +290,7 @@
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>60832d3d-9933-429e-aa10-a3edf96d8a37</Id>
+          <Id>d49543a9-5175-4792-9b2e-7951cfc030e3</Id>
           <ActionType>WriteToLog</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -323,7 +323,7 @@
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>23020988-54de-41b9-afc9-ec6924affb1d</Id>
+          <Id>9a4f993b-64a4-4a2b-a570-03cfd9aacde3</Id>
           <ActionType>TextSet</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -361,7 +361,7 @@
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>6946fe70-7409-468d-a6f7-f29c9b27a504</Id>
+          <Id>e7ca44bf-e344-47a6-8670-9fbf3ab62aa7</Id>
           <ActionType>Comment</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -394,7 +394,7 @@
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>9cb4d604-8ed8-4e7a-97ce-2f972a5743b9</Id>
+          <Id>715219de-7bec-44b0-a666-13a9551afd53</Id>
           <ActionType>InlineFunctionCS</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -505,7 +505,7 @@ public class VAInline
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>18a09f6b-79fa-4223-83fb-6e2e6bcf5704</Id>
+          <Id>757cabc2-9e79-42a1-878c-8b6f8c843761</Id>
           <ActionType>InlineFunctionPrecompiled</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -538,7 +538,7 @@ public class VAInline
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>ba9c5dd2-8d32-4522-9347-df7b9672f649</Id>
+          <Id>e37e806c-203d-46e4-81e1-cafb5dd5795b</Id>
           <ActionType>Comment</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -571,7 +571,7 @@ public class VAInline
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>c39c150d-7bdf-4caa-8f1a-300b63c5f771</Id>
+          <Id>86d7aa2a-3de7-46e9-b7e8-e0692808dd4b</Id>
           <ActionType>WriteToLog</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -604,7 +604,7 @@ public class VAInline
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>7e2df076-9f2c-4d8f-b7a1-d632c2d2ae66</Id>
+          <Id>6ca20119-1908-4266-a9f2-156d8fb10979</Id>
           <ActionType>WriteToLog</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -637,7 +637,7 @@ public class VAInline
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>bc8d29b3-5604-4e80-b45e-2b67979f6e3e</Id>
+          <Id>5bd0abaf-b221-4867-ba53-04799a0ff2fb</Id>
           <ActionType>WriteToLog</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -670,7 +670,7 @@ public class VAInline
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>d269da5f-0bc9-4c2e-a28f-89f566c4b23c</Id>
+          <Id>d9ee11eb-40b1-4137-9d34-605159feff07</Id>
           <ActionType>Comment</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -702,7 +702,7 @@ public class VAInline
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>59b7ae81-9fed-402e-98d7-6aafbe83f55a</Id>
+          <Id>c6cbef6e-bb48-450e-b64f-b578b02f18c7</Id>
           <ActionType>Comment</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -734,7 +734,7 @@ public class VAInline
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>5a2fbd07-cb76-4f01-ae51-50bde965321c</Id>
+          <Id>aa22904c-e977-41c1-b755-2476675db868</Id>
           <ActionType>Comment</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -766,7 +766,7 @@ public class VAInline
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>c0685006-ef10-46f8-9e0c-f5465e476b8c</Id>
+          <Id>fd0907c1-7683-433d-ab71-aa1c09ceae45</Id>
           <ActionType>Comment</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -794,7 +794,8 @@ public class VAInline
       </ActionSequence>
       <Async>true</Async>
       <Enabled>true</Enabled>
-      <Description>Change WSR profile based on variable</Description>
+      <Description>WIP...Change WSR profile based on variable</Description>
+      <Category>WIP</Category>
       <UseShortcut>false</UseShortcut>
       <keyValue>107</keyValue>
       <keyShift>0</keyShift>
@@ -857,7 +858,7 @@ public class VAInline
       <OriginId>00000000-0000-0000-0000-000000000000</OriginId>
     </Command>
     <Command>
-      <Id>67c4704d-4bb6-4024-8997-2ff2db3b09c7</Id>
+      <Id>8cc46b3e-8a4b-4169-9dc5-441b34c60807</Id>
       <CommandString>Change Recognition Profile by Variable</CommandString>
       <ActionSequence>
         <CommandAction>
@@ -867,7 +868,7 @@ public class VAInline
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>40090800-ae0e-4d49-a66c-688e4f22df3a</Id>
+          <Id>1415fedf-ee0a-4614-994b-e89b5ae2e55f</Id>
           <ActionType>Comment</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -899,7 +900,7 @@ public class VAInline
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>ed104a29-8044-4342-a032-ba05861d6233</Id>
+          <Id>c926d6ce-1040-47f8-9f7d-2ed37b7a4beb</Id>
           <ActionType>Comment</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -931,7 +932,7 @@ public class VAInline
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>672cfa85-f0ba-4aa7-b0bc-86008fca3d6b</Id>
+          <Id>aacc71cd-b1e0-46e0-824c-81e5adb6e3af</Id>
           <ActionType>Comment</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -963,7 +964,7 @@ public class VAInline
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>36fa206e-bacd-469c-a14d-b535558b3265</Id>
+          <Id>99c9e4c6-8fdb-4e50-8f1f-da8998283557</Id>
           <ActionType>Comment</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -996,7 +997,7 @@ public class VAInline
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>0386fd2a-2102-41a2-9a5b-369d054840ae</Id>
+          <Id>0026d0ce-2c5c-4086-8454-835eba2f6d69</Id>
           <ActionType>Comment</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -1028,7 +1029,7 @@ public class VAInline
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>4f97ef83-305b-4dce-a701-6cfb1dfc1f25</Id>
+          <Id>c7981da9-20d5-4031-bffd-29be55340283</Id>
           <ActionType>Comment</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -1061,7 +1062,7 @@ public class VAInline
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>61025412-3ec1-4758-9354-5b48980ab53b</Id>
+          <Id>d913b3d0-c8dc-4986-91ea-1072f4af4f95</Id>
           <ActionType>Comment</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -1094,7 +1095,7 @@ public class VAInline
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>c198e94f-8adf-41bd-81e8-cc8d8d9a8738</Id>
+          <Id>be4a5c86-f757-490d-a5eb-068f0fb025a3</Id>
           <ActionType>TextSet</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -1132,7 +1133,7 @@ public class VAInline
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>cfb7c133-10be-451b-9ed8-32ab08c6c909</Id>
+          <Id>cf60138f-5b83-40f7-8f43-e0d76e789454</Id>
           <ActionType>Comment</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -1164,7 +1165,7 @@ public class VAInline
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>82205037-79a6-452a-bd87-b3ce2d5671e9</Id>
+          <Id>4f5dcf9d-9877-4d73-a79e-f6c87899ec11</Id>
           <ActionType>Comment</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -1197,7 +1198,7 @@ public class VAInline
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>25e7aceb-307d-4ce8-84b1-4b358bc729f4</Id>
+          <Id>103e746b-8edd-480e-b4cc-764b9deada62</Id>
           <ActionType>InlineFunctionCS</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -1311,7 +1312,7 @@ public class VAInline
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>00d2bdf5-73d7-46b4-b840-05f18c302996</Id>
+          <Id>665f45f2-f017-48d9-9818-445829f1a0d9</Id>
           <ActionType>Comment</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -1343,7 +1344,7 @@ public class VAInline
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>9b119e46-d78d-4458-9556-64672f15aef0</Id>
+          <Id>cb8ffc03-8c1d-44bf-8e35-cfa455b05b61</Id>
           <ActionType>Comment</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -1376,7 +1377,7 @@ public class VAInline
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>c1ad66c1-8a3d-4927-afb2-afe1c17f33eb</Id>
+          <Id>272ea616-3d59-4bb1-90ed-aaae0c9f81c1</Id>
           <ActionType>WriteToLog</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -1409,7 +1410,7 @@ public class VAInline
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>0f6065a7-5c3b-46c3-9c32-1094dd183de5</Id>
+          <Id>0d517d97-6b9e-49b9-a5c1-12ae7fbcb28a</Id>
           <ActionType>WriteToLog</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -1442,7 +1443,7 @@ public class VAInline
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>1f48bd5e-9f6f-44e9-85ce-6f9e389a46ba</Id>
+          <Id>11ef2e67-5dbe-413f-af43-0b7d75971958</Id>
           <ActionType>WriteToLog</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -1472,6 +1473,7 @@ public class VAInline
       <Async>true</Async>
       <Enabled>true</Enabled>
       <Description>Change WSR profile based on variable</Description>
+      <Category>Testing</Category>
       <UseShortcut>true</UseShortcut>
       <keyValue>109</keyValue>
       <keyShift>0</keyShift>
@@ -1534,7 +1536,7 @@ public class VAInline
       <OriginId>00000000-0000-0000-0000-000000000000</OriginId>
     </Command>
     <Command>
-      <Id>c0c711ce-70b3-443a-b804-2f822993b0b4</Id>
+      <Id>fd823ce4-e4ba-41a7-afd3-2bcb5e256c1f</Id>
       <CommandString>Change Recognition Profile to [one; two; three]</CommandString>
       <ActionSequence>
         <CommandAction>
@@ -1544,7 +1546,7 @@ public class VAInline
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>a12d61c5-6f0f-4c33-aea1-b14dce9f58bb</Id>
+          <Id>72592e46-db9f-4b75-bbe0-7a8a67acdae7</Id>
           <ActionType>Comment</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -1576,7 +1578,7 @@ public class VAInline
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>c63f1e59-63e5-485a-b091-2c538a1f1586</Id>
+          <Id>2fe881ed-07b3-4db4-ad9f-113930a9affb</Id>
           <ActionType>Comment</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -1608,7 +1610,7 @@ public class VAInline
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>47d25474-bf56-4670-b9e9-c4e1f2991496</Id>
+          <Id>e231b250-ef9d-4c11-9f3d-07df687776a3</Id>
           <ActionType>Comment</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -1640,7 +1642,7 @@ public class VAInline
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>697647af-3cd1-432f-9150-619ed194d1b7</Id>
+          <Id>d9e51a0a-fae2-4e1c-a12a-de822714e45f</Id>
           <ActionType>Comment</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -1673,7 +1675,7 @@ public class VAInline
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>3891042b-72cb-4cca-bb82-2108620a1dfe</Id>
+          <Id>5cff09ef-f736-4671-812f-8c099afcf0f4</Id>
           <ActionType>Comment</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -1706,7 +1708,7 @@ public class VAInline
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>5f0ae83e-5306-4d8b-9d26-d3e37ae5b682</Id>
+          <Id>f3f7b813-6b5e-4d6f-9266-6e2adb319f38</Id>
           <ActionType>Comment</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -1738,7 +1740,7 @@ public class VAInline
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>c0143cae-2bf7-4b74-8d74-979e475dc0c8</Id>
+          <Id>5c964e9e-b0dd-4340-ae9e-d11c35349cdf</Id>
           <ActionType>Comment</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -1771,7 +1773,7 @@ public class VAInline
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>5f5f6139-38e0-433f-9841-3b70323ab587</Id>
+          <Id>680301da-f58b-423f-984c-64ad5f172a28</Id>
           <ActionType>TextSet</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -1809,7 +1811,7 @@ public class VAInline
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>4924fa05-9ec8-43bc-8edb-1ef95f948669</Id>
+          <Id>209b433a-9716-4ee3-9129-69b82b26fb8f</Id>
           <ActionType>Comment</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -1841,7 +1843,7 @@ public class VAInline
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>d42fb477-620d-46e3-b4d5-af3000452115</Id>
+          <Id>888a3912-0348-44d7-a802-60916fddb7d9</Id>
           <ActionType>Comment</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -1874,7 +1876,7 @@ public class VAInline
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>a092be09-71ae-4923-acdd-04ba4c91e4d9</Id>
+          <Id>28d92996-8a7b-4db6-aa74-87d2bb1a62f0</Id>
           <ActionType>InlineFunctionCS</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -1988,7 +1990,7 @@ public class VAInline
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>7e922336-35b3-4908-86f3-d1f780222814</Id>
+          <Id>6aa6288d-21ff-4218-aaf6-3ff1ac7e543e</Id>
           <ActionType>Comment</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -2020,7 +2022,7 @@ public class VAInline
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>04f65c2e-910f-4d39-b071-0dcd05c39101</Id>
+          <Id>28954907-0e47-4640-b941-8416016d0461</Id>
           <ActionType>Comment</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -2053,7 +2055,7 @@ public class VAInline
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>5a48e993-ee83-4b5c-8b7d-55b803ca3e76</Id>
+          <Id>9272d9a7-362c-4456-a2d8-10aecfdf7a89</Id>
           <ActionType>WriteToLog</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -2086,7 +2088,7 @@ public class VAInline
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>16f3e3f1-7f59-47c9-906a-baeabf8624d6</Id>
+          <Id>9fa7f74b-29fe-4a9c-b33d-001190750ca5</Id>
           <ActionType>WriteToLog</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -2119,7 +2121,7 @@ public class VAInline
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
-          <Id>4bfd75ac-186f-41d0-bb2d-85a47af07a04</Id>
+          <Id>575a3b0e-f494-4b6e-b159-4dc79f2fc87f</Id>
           <ActionType>WriteToLog</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -2149,6 +2151,7 @@ public class VAInline
       <Async>true</Async>
       <Enabled>true</Enabled>
       <Description>Change WSR profile by voice command</Description>
+      <Category>Testing</Category>
       <UseShortcut>false</UseShortcut>
       <keyValue>0</keyValue>
       <keyShift>0</keyShift>
@@ -2254,7 +2257,7 @@ public class VAInline
   <DictationCommandId xsi:nil="true" />
   <EnableProfileSwitch>false</EnableProfileSwitch>
   <CategoryGroups />
-  <GroupCategory>false</GroupCategory>
+  <GroupCategory>true</GroupCategory>
   <LastEditedCommand>da76e7e4-2b88-4385-ae74-3371ab00c33e</LastEditedCommand>
   <IS>0</IS>
   <IO>0</IO>
