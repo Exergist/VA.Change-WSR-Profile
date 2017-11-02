@@ -50,4 +50,4 @@ I am one of the moderators on the VoiceAttack User Forums, and I receive no bene
 ## Thanks
 Many thanks go out to Gary (VoiceAttack developer) for giving the world this amazing piece of software. You sir, are the man. 
 
-Additional appreciation goes out to the VoiceAttack Forum moderators and community for helping to build a great place to learn and develop cool stuff with VoiceAttack.
+Additional appreciation goes out to the VoiceAttack User Forum moderators and community for helping to build a great place to learn and develop cool stuff with VoiceAttack.
