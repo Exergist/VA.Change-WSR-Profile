@@ -9,12 +9,12 @@ More information about the VoiceAttack voice control and macro creation software
 WSR allows you to use your voice to control your (Windows) computer, and VA dramatically expands upon this capability. To effectively use WSR you need to have a microphone (of course) and "train" your computer to better understand you. A WSR profile contains the information from the voice training. Besides needing different profiles for different users, the effectiveness of voice recognition is impacted by your microphone and your ambient surroundings (as well as other stuff). So WSR profile switching is very important if you have multiple users who want to employ voice control and, to a lesser extent, if you want to use voice control with different microphones or within different ambient noise environments. 
 
 <p>
- <details>
-  <summary>
-   Click here to see a snapshot of the Windows 7 Speech Properties window (which pretty much looks identical to the same in Windows 10). You can see the option to select from multiple WSR profiles.
-  </summary>
-  <img src="https://github.com/Exergist/VA.Change-WSR-Profile/blob/master/Images/Windows%207%20Speech%20Properties.png" title="Windows Speech Properties" width="40%">
- </details>
+	<details>
+		<summary>
+			Click here to see a snapshot of the Windows 7 Speech Properties window (which pretty much looks identical to the same in Windows 10). You can see the option to select from multiple WSR profiles.
+		</summary>
+		<img src="https://github.com/Exergist/VA.Change-WSR-Profile/blob/master/Images/Windows%207%20Speech%20Properties.png" title="Windows Speech Properties" width="40%">
+	</details>
 </p>
 
 Here's the catch: **changing WSR profiles through the Windows interface is cumbersome. That is where VA.Change-WSR-Profile comes in.** 
@@ -40,7 +40,7 @@ This is going to be wordy, but I'm trying cater this to all users and be thoroug
 9. At this point all you need to do is edit the WSR profile name information inside the VA commands within the imported profile to match what is on your PC.
    - If you plan on using the "Change WSR profile based on variable" command you just have to edit the text variable "ActivatedProfile" to match the exact name of the WSR profile you want to switch to.
    - If you want to use the "Change WSR profile by voice command" then you need to edit the text contained within the brackets in the "When I say" field of the command. By default "When I say" reads "Change Recognition Profile to [one; two; three]. The manual calls this bracket portion a "dynamic command section." You just need to change the "one," "two," and "three" text entries to exactly match the names of the profiles you want to possibly switch to using voice commands. A minimum of one profile name is needed to make the command function (and remove the brackets for this case), and I don't know if there's a maximum limit to the number of profiles options you can provide VA. Note that one entry would look like `Change Recognition Profile to Profile1` and 2 entries would like like `Change Recognition Profile to [Profile1; Profile2]`. Note that the last entry when multiple options are entered needs to NOT contain a semicolon after the entry (again, read the manual). 
-10. Profit!
+10. Profit!	
 
 **BE ADVISED. If you try to change WSR profiles with VA while the Windows Speech Properties window is open (see above image) you will receive confirmation from VA that the switch occurred but it will not be implemented by Windows. The Windows Speech Properties window must be closed for the profile change to take effect.**
 
