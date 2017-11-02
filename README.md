@@ -8,13 +8,16 @@ More information about the VoiceAttack voice control and macro creation software
 ### Why should I care about Windows Speech Recognition (WSR) and corresponding profile switching?
 WSR allows you to use your voice to control your (Windows) computer, and VA dramatically expands upon this capability. To effectively use WSR you need to have a microphone (of course) and "train" your computer to better understand you. A WSR profile contains the information from the voice training. Besides needing different profiles for different users, the effectiveness of voice recognition is impacted by your microphone and your ambient surroundings (as well as other stuff). So WSR profile switching is very important if you have multiple users who want to employ voice control and, to a lesser extent, if you want to use voice control with different microphones or within different ambient noise environments. 
 
-The catch is that switching profiles through the Windows interface is cumbersome. That is where VA.Change-WSR-Profile comes in. 
+<p>
+ <details>
+  <summary>
+   Click here to see a snapshot of the Windows 7 Speech Properties window (which pretty much looks identical to the same in Windows 10). You can see the option to select from multiple WSR profiles.
+  </summary>
+  <img src="https://github.com/Exergist/VA.Change-WSR-Profile/blob/master/Images/Windows%207%20Speech%20Properties.png" title="Windows Speech Properties" width="40%">
+ </details>
+</p>
 
-
-<details>
-<summary>Click here to see a snapshot of the Windows 7 Speech Properties window (which pretty much looks identical to the same in Windows 10). You can see the option to select from multiple WSR profiles.</summary>
-<img src="https://github.com/Exergist/VA.Change-WSR-Profile/blob/master/Images/Windows%207%20Speech%20Properties.png" title="Windows Speech Properties" width="40%">
-</details>
+Here's the catch: **changing WSR profiles through the Windows interface is cumbersome. That is where VA.Change-WSR-Profile comes in.** 
 
 ## How does it work?
 The VA profile "Change WSR Profile" (corresponding to "Change WSR Profile.vap") provides two VA commands: 
