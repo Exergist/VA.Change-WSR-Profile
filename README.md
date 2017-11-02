@@ -8,16 +8,20 @@ More information about the VoiceAttack voice control and macro creation software
 ### Why should I care about Windows Speech Recognition (WSR) and corresponding profile switching?
 WSR allows you to use your voice to control your (Windows) computer, and VA dramatically expands upon this capability. To effectively use WSR you need to have a microphone (of course) and "train" your computer to better understand you. A WSR profile contains the information from the voice training. Besides needing different profiles for different users, the effectiveness of voice recognition is impacted by your microphone and your ambient surroundings (as well as other stuff). So WSR profile switching is very important if you have multiple users who want to employ voice control and, to a lesser extent, if you want to use voice control with different microphones or within different ambient noise environments. 
 
-<img src="https://github.com/Exergist/VA.Change-WSR-Profile/blob/master/Images/Windows%207%20Speech%20Properties.png" title="Windows Speech Properties" width="40%">
-
 The catch is that switching profiles through the Windows interface is cumbersome. That is where VA.Change-WSR-Profile comes in. 
+
+
+<details>
+<summary>Click here to see a snapshot of the Windows 7 Speech Properties window (which pretty much looks identical to the same in Windows 10). You can see the option to select from multiple WSR profiles.</summary>
+<img src="https://github.com/Exergist/VA.Change-WSR-Profile/blob/master/Images/Windows%207%20Speech%20Properties.png" title="Windows Speech Properties" width="40%">
+</details>
 
 ## How does it work?
 The VA profile "Change WSR Profile" (corresponding to "Change WSR Profile.vap") provides two VA commands: 
  - Change WSR profile by voice command
  - Change WSR profile based on variable
 
-As you might guess the first command allows the user to change WSR profiles using a voice command, and the second command allows the user to change to a specific WSR profile based on the value stored in a text variable. Both commands rely on a C# inline function that leverages the [Microsoft Speech API 5.4](https://msdn.microsoft.com/en-us/library/ee125663(v=vs.85).aspx) (Interop.SpeechLib.dll) to perform the actual profile switch. Feel free to check out the source code to better understand what's happening "under the hood."
+As you might guess the first command allows the user to change WSR profiles using a voice command, and the second command allows the user to change to a specific WSR profile based on the value stored in a text variable. Both commands rely on a C# inline function that leverages the [Microsoft Speech API 5.4](https://msdn.microsoft.com/en-us/library/ee125663(v=vs.85).aspx) (Interop.SpeechLib.dll) to gather information about the user's WSR profiles, perform the actual profile change, and report the results. Feel free to check out the source code to better understand what's happening "under the hood."
 
 ## How do I install it?
 This is going to be wordy, but I'm trying cater this to all users and be thorough. 
@@ -42,7 +46,7 @@ First and foremost, **[read the VoiceAttack manual](http://voiceattack.com/Voice
 
 If you are having problems with the VA software itself there is a dedicated [VoiceAttack User Forum](http://voiceattack.com/SMF/index.php) where you may seek help. The community is active and full of dedicated users who will help you with your general VA issues. Plus it's a great place to learn more about VA so you can do other super cool things as well as check out profiles and commands that other users have shared. 
 
-~If you are having problems specifically with the VA.Change-WSR-Profile then head over to the VoiceAttack User Forum, check out the "Issues" section to get an idea for how to provide enough information to request assistance, and then post to the "VA.Change-WSR-Profile" thread within the "Profiles, Commands and Plugins" section.~ Waiting on official release of VA.Change-WSR-Profile on the VoiceAttack Forum before starting to provide help specifically for VA.Change-WSR-Profile.
+~If you are having problems specifically with the VA.Change-WSR-Profile commands or code then head over to the VoiceAttack User Forum, check out the "Issues" section to get an idea for how to provide enough information to request assistance, and then post to the "VA.Change-WSR-Profile" thread within the "Profiles, Commands and Plugins" section.~ Waiting on official release of VA.Change-WSR-Profile on the VoiceAttack Forum before starting to provide help specifically for VA.Change-WSR-Profile.
 
 ## Full Disclosure
 I am one of the moderators on the VoiceAttack User Forums, and I receive no benefits from the use or promotion of the VoiceAttack software. 
