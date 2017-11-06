@@ -1,13 +1,37 @@
-//Allows user to switch Windows Speech Recognition (WSR) profiles based on inputted variable
+TODO:
+Create batch file for restarting VA to make VA recognize the change (profile switching also works but a restart is more universal for users)
+Reverify with Gary. Particularly ask about "disposing" or other cleanup after making registry edits
+
+//Allows user to switch Windows Speech Recognition (WSR) profiles based on inputted text variable
+
+//Check all processes to see if the Speech Properties window is open and terminate command if true
+//When the Speech Properties window is open any attempts by VoiceAttack to change the WSR profile will not be saved by Windows
+Inline C# Function: Check if Speech Properties is open, wait until execution finishes
+DISABLED - Inline C# Function: Check if Speech Properties is open, wait until execution finishes
+Begin Boolean Compare : [sPropStatus] Equals True
+    Write '[Red] Action terminated. Speech Properties window is open.' to log
+    Say, 'Action terminated, Speech Properties window is open.'  (and wait until it completes)
+    Exit Command
+End Condition
 
 //Define WSR profile name you want to activate
 //Inputted name must exactly match one of the available WSR profile names
-Set Text [ActivatedProfile] to 'YourProfileName'
+Set Text [WSRActivatedProfile] to 'Profile13'
 
-//Change WSR profile using C# inline function
+//Get WSR profile in and change WSR profile using C# inline function
 Inline C# Function: Change WSR Profile, wait until execution finishes
 
-//Output information
-Write '[Blue] Current Profile = {TXT:CurrentProfile}' to log
-Write '[Blue] Available Profiles = {TXT:ProfileList}' to log
-Write '[Blue] {TXT:ProfileChangeResult}' to log
+//Output general WSR profile information to the VoiceAttack event log
+Write '[Blue] Current Profile = {TXT:WSRCurrentProfile}' to log
+Write '[Blue] Available Profiles = {TXT:WSRProfileList}' to log
+
+//Output result of attempted WSR profile change
+Begin Condition : [WSRChangeResult] Contains 'ERROR' OR [WSRChangeResult] Contains 'not found'
+    Write '[Red] {TXT:WSRChangeResult}' to log
+    Say, '{TXT:WSRChangeResult}'  (and wait until it completes)
+Else If Text Compare : [{TXT:WSRChangeResult}] Contains 'already activated'
+    Write '[Yellow] {TXT:WSRChangeResult}' to log
+    Say, '{TXT:WSRChangeResult}'  (and wait until it completes)
+Else
+    Write '[Blue] {TXT:WSRChangeResult}' to log
+End Condition
