@@ -1,13 +1,41 @@
+TODO:
+Create batch file for restarting VA to make VA recognize the change (profile switching also works but a restart is more universal for users)
+Reverify with Gary. Particularly ask about "disposing" or other cleanup after making registry edits
+
 //Allows user to switch Windows Speech Recognition (WSR) profiles by voice command
 //The profile names contained within the bracketed dynamic command section must exactly match the corresponding WSR profile names
+//Insert as many WSR profile names in the 'When I say' field as you want available for voice-activated switching (minimum of 1)
+
+DISABLED - //Define text variable to store the title of the Speech Properties window
+DISABLED - Set Text [sProp] to 'Speech Properties'
+
+//Check all processes to see if the Speech Properties window is open and terminate command if true
+//When the Speech Properties window is open any attempts by VoiceAttack to change the WSR profile will not be saved by Windows
+Inline C# Function: Check if Speech Properties is open, wait until execution finishes
+DISABLED - Inline C# Function: Check if Speech Properties is open, wait until execution finishes
+Begin Boolean Compare : [sPropStatus] Equals True
+    Write '[Red] Action terminated. Speech Properties window is open.' to log
+    Say, 'Action terminated, Speech Properties window is open.'  (and wait until it completes)
+    Exit Command
+End Condition
 
 //Extract name of requested WSR profile from spoken command
-Set Text [ActivatedProfile] to '{CMDSEGMENT:1}'
+Set Text [WSRActivatedProfile] to '{CMDSEGMENT:1}'
 
-//Change WSR profile using C# inline function
+//Get WSR profile in and change WSR profile using C# inline function
 Inline C# Function: Change WSR Profile, wait until execution finishes
 
-//Output information
-Write '[Blue] Current Profile = {TXT:CurrentProfile}' to log
-Write '[Blue] Available Profiles = {TXT:ProfileList}' to log
-Write '[Blue] {TXT:ProfileChangeResult}' to log
+//Output general WSR profile information to the VoiceAttack event log
+Write '[Blue] Current Profile = {TXT:WSRCurrentProfile}' to log
+Write '[Blue] Available Profiles = {TXT:WSRProfileList}' to log
+
+//Output result of attempted WSR profile change
+Begin Condition : [WSRChangeResult] Contains 'ERROR' OR [WSRChangeResult] Contains 'not found'
+    Write '[Red] {TXT:WSRChangeResult}' to log
+    Say, '{TXT:WSRChangeResult}'  (and wait until it completes)
+Else If Text Compare : [{TXT:WSRChangeResult}] Contains 'already activated'
+    Write '[Yellow] {TXT:WSRChangeResult}' to log
+    Say, '{TXT:WSRChangeResult}'  (and wait until it completes)
+Else
+    Write '[Blue] {TXT:WSRChangeResult}' to log
+End Condition
