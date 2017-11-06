@@ -9,15 +9,15 @@ Reverify with Gary. Particularly ask about "disposing" or other cleanup after ma
 DISABLED - //Define text variable to store the title of the Speech Properties window
 DISABLED - Set Text [sProp] to 'Speech Properties'
 
-//Check all processes to see if the Speech Properties window is open and terminate command if true
-//When the Speech Properties window is open any attempts by VoiceAttack to change the WSR profile will not be saved by Windows
-Inline C# Function: Check if Speech Properties is open, wait until execution finishes
+DISABLED - //Check all processes to see if the Speech Properties window is open and terminate command if true
+DISABLED - //When the Speech Properties window is open any attempts by VoiceAttack to change the WSR profile will not be saved by Windows
 DISABLED - Inline C# Function: Check if Speech Properties is open, wait until execution finishes
-Begin Boolean Compare : [sPropStatus] Equals True
-    Write '[Red] Action terminated. Speech Properties window is open.' to log
-    Say, 'Action terminated, Speech Properties window is open.'  (and wait until it completes)
-    Exit Command
-End Condition
+DISABLED - Inline C# Function: Check if Speech Properties is open, wait until execution finishes
+DISABLED - Begin Boolean Compare : [sPropStatus] Equals True
+    DISABLED - Write '[Red] Action terminated. Speech Properties window is open.' to log
+    DISABLED - Say, 'Action terminated, Speech Properties window is open.'  (and wait until it completes)
+    DISABLED - Exit Command
+DISABLED - End Condition
 
 //Extract name of requested WSR profile from spoken command
 Set Text [WSRActivatedProfile] to '{CMDSEGMENT:1}'
