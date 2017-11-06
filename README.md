@@ -41,18 +41,15 @@ This is going to be wordy, but I'm trying to cater this to all users and be thor
 9. Either command is used like any other VA command. However there are two important details that you need to remember:
    - **The Windows Speech Properties window (see above image for reference) must be closed for any WSR profile changes performed by VoiceAttack to take effect.** If you try to change WSR profiles with VoiceAttack while the Windows Speech Properties window is open you will receive confirmation from VA that the switch occurred but it will not be implemented by Windows.
    - **For the WSR profile change to be recognized by VoiceAttack you need to perform the WSR profile change and then switch VoiceAttack profiles.** Every time you switch VoiceAttack profiles VA instantiates an instance of a speech engine object and holds on to that object. That instance is based on settings at the time of instantiation. The speech object is only destroyed when a profile changes, so a VA profile switch is needed in order for the new WSR profile to be recognized by VA. Restarting VoiceAttack after performing the WSR profile change should achieve the same effect. 
-10. Profit!	
-
-## BE ADVISED
-_**The Windows Speech Properties window (see above image for reference) must be closed for any WSR profile changes performed by VoiceAttack to take effect.**_
-If you try to change WSR profiles with VoiceAttack while the Windows Speech Properties window is open you will receive confirmation from VA that the switch occurred but it will not be implemented by Windows. 
-
-You can confirm that the WSR profile change is working by:
-1. Making sure the Windows Speech Properties window is closed.
-2. Perform the WSR profile change with VA, and receive confirmation from VA that the switch was successful.
-3. Open the Windows Speech Properties window and confirm (from Windows' point of view) that the switch was successful.
+   
+   You can confirm that the WSR profile change is working by:
+   1. Making sure the Windows Speech Properties window is closed.
+   2. Perform the WSR profile change with VA, and receive confirmation from VA that the switch was successful.
+   3. Open the Windows Speech Properties window and confirm (from Windows' point of view) that the switch was successful.
 
 VoiceAttack always querries the WSR profile state _in Windows_. So even if you accidentally try to switch WSR profiles with the Windows Speech Properties window open you can get back on track by closing the window and reperforming the profile switch. VA will read the current profile (which wasn't changed previously due to the Speech Properties window being open) and try to change the profile again. 
+
+10. Profit!	
 
 ## Help I have issues!
 First and foremost, **[read the VoiceAttack manual](http://voiceattack.com/VoiceAttackHelp.pdf)**. Yes it's long but it covers most of what is needed for you to understand and use VoiceAttack. Plus it covers more advanced stuff which is great to know so you can do other super cool things. 
