@@ -23,7 +23,7 @@ The VA profile "Change WSR Profile" (corresponding to "Change WSR Profile.vap") 
  - Change WSR profile by voice command
  - Change WSR profile based on variable
 
-As you might guess the first command allows the user to change WSR profiles using a voice command, and the second command allows the user to change to a specific WSR profile based on the value stored in a text variable. Both commands rely on a C# inline function that interacts with the Windows registry (starting at HKEY_CURRENT_USER\Software\Microsoft\Speech\RecoProfiles) to gather information about the user's WSR profiles, perform the actual profile change (via registry edit), and report the results. Feel free to check out the source code to better understand what's happening "under the hood."
+As you might guess the first command allows the user to change WSR profiles using a voice command, and the second command allows the user to change to a specific WSR profile based on the value stored in a text variable. Both commands rely on a C# inline function that interacts with the Windows registry (with a base key path starting at HKEY_CURRENT_USER\Software\Microsoft\Speech\RecoProfiles) to gather information about the user's WSR profiles, perform the actual profile change (via registry edit), and report the results. Feel free to check out the source code to better understand what's happening "under the hood."
 
 ## How do I install and use it?
 This is going to be wordy, but I'm trying to cater the content to all users and be thorough. 
