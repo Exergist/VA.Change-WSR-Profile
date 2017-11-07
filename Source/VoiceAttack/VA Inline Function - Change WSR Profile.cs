@@ -55,8 +55,8 @@ public class VAInline
 
                     try //Attempt the below "try" code and jump to "catch" if an exception (error) is encountered
                     {
-                        WSRProfileRoot.SetValue("DefaultTokenId", ActivatedProfileId); //Change the value of the "DefaultTokenId" in the Windows registry to the ActivatedProfileId, which will change the WSR profile to ActivatedProfileName
-                        WSRChangeResult = "New profile installed: " + ActivatedProfileName; //Store result information
+                        WSRProfileRoot.SetValue("DefaultTokenId", "HKEY_CURRENT_USER\\Software\\Microsoft\\Speech\\RecoProfiles\\Tokens\\" + ActivatedProfileId); //Change the value of the "DefaultTokenId" in the Windows registry to the ActivatedProfileId, which will change the WSR profile to ActivatedProfileName
+                        WSRChangeResult = "New profile activated: " + ActivatedProfileName; //Store result information
                     }
                     catch (Exception ex)
                     {
