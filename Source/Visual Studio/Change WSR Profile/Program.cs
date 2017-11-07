@@ -17,7 +17,7 @@ namespace Change_WSR_Profile
             //Initialize important variables
             string WSRProfileList = "";
             string CurrentProfileName = "";
-            string ActivatedProfileName = "profile1";
+            string ActivatedProfileName = "profile3";
             string[] ProfileIdList, ProfileNameList;
             string WSRChangeResult = "";
 
@@ -54,7 +54,7 @@ namespace Change_WSR_Profile
 
                     try //Attempt the below "try" code and jump to "catch" if an exception (error) is encountered
                     {
-                        WSRProfileRoot.SetValue("DefaultTokenId", ActivatedProfileId); //Change the value of the "DefaultTokenId" in the Windows registry to the ActivatedProfileId, which will change the WSR profile to ActivatedProfileName
+                        WSRProfileRoot.SetValue("DefaultTokenId", "HKEY_CURRENT_USER\\Software\\Microsoft\\Speech\\RecoProfiles\\Tokens\\" + ActivatedProfileId); //Change the value of the "DefaultTokenId" in the Windows registry to the ActivatedProfileId, which will change the WSR profile to ActivatedProfileName
                         WSRChangeResult = "New profile installed: " + ActivatedProfileName; //Store result information
                     }
                     catch (Exception ex)
@@ -74,6 +74,6 @@ namespace Change_WSR_Profile
             Console.WriteLine("Press any key to continue...");
             Console.ReadLine();
             #endregion
-        }
+       }
     }
 }
