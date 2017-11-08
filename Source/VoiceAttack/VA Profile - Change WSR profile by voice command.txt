@@ -1,17 +1,12 @@
 TODO:
-Create batch file for restarting VA to make VA recognize the change (profile switching also works but a restart is more universal for users)
-Reverify with Gary. Particularly ask about "disposing" or other cleanup after making registry edits
+Check Windows 10 Command Line in TaskMgr for Speech Properties window and add notes to checking inline function
 
 //Allows user to switch Windows Speech Recognition (WSR) profiles by voice command
 //The profile names contained within the bracketed dynamic command section must exactly match the corresponding WSR profile names
 //Insert as many WSR profile names in the 'When I say' field as you want available for voice-activated switching (minimum of 1)
 
-DISABLED - //Define text variable to store the title of the Speech Properties window
-DISABLED - Set Text [sProp] to 'Speech Properties'
-
 DISABLED - //Check all processes to see if the Speech Properties window is open and terminate command if true
 DISABLED - //When the Speech Properties window is open any attempts by VoiceAttack to change the WSR profile will not be saved by Windows
-DISABLED - Inline C# Function: Check if Speech Properties is open, wait until execution finishes
 DISABLED - Inline C# Function: Check if Speech Properties is open, wait until execution finishes
 DISABLED - Begin Boolean Compare : [sPropStatus] Equals True
     DISABLED - Write '[Red] Action terminated. Speech Properties window is open.' to log
@@ -38,4 +33,21 @@ Else If Text Compare : [{TXT:WSRChangeResult}] Contains 'already activated'
     Say, '{TXT:WSRChangeResult}'  (and wait until it completes)
 Else
     Write '[Blue] {TXT:WSRChangeResult}' to log
+    
+    //Close and restart VoiceAttack so that WSR profile change is recognized by VoiceAttack
+    //Store expected location for VA restart batch file and check if the file exists
+    Set Text [VARestartBatchFile] to '{VA_APPS}{EXP:'\VA.Change-WSR-Profile\' + 'Restart VoiceAttack.bat'}'
+    Begin Text Compare : [{STATE_FILEEXISTS:VARestartBatchFile}] Equals '0'
+        //Create batch file for restarting VoiceAttack
+        Write (overwrite), '@Echo off
+TIMEOUT /T 2 >nul
+START "" "{VA_DIR}{EXP:'\VoiceAttack.exe'}"' to file '{TXT:VARestartBatchFile}'
+        Pause 1 second
+    End Condition
+    Write '[Blue] VoiceAttack will now restart...' to log
+    Pause 1 second
+    //Run the "VoiceAttack Restart.bat" file. It should actually delay (as part of the .bat) before resterting VoiceAttack.
+    Run application '{TXT:VARestartBatchFile}' (hidden)
+    //VoiceAttack action to close the VoiceAttack program
+    Close 'VoiceAttack' process
 End Condition
