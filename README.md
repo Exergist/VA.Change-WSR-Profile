@@ -68,6 +68,8 @@ If you are having problems with the VA software itself there is a dedicated [Voi
 I am one of the moderators on the VoiceAttack User Forums, and I receive no benefits from the use or promotion of the VoiceAttack software. 
 
 ## Thanks
-Many thanks go out to Gary (VoiceAttack developer) for giving the world this amazing piece of software. You sir, are the man. 
+Many thanks go out to Gary (VoiceAttack developer) for giving the world this amazing piece of software, as well as for providing initial feedback about VA.Change-WSR-Profile. You sir, are the man. 
+
+Antaniserse and Gangrel for providing feedback during development of the beta versions. 
 
 Additional appreciation goes out to the VoiceAttack User Forum moderators and community for helping to build a great place to learn and develop cool stuff with VoiceAttack.
