@@ -3,6 +3,8 @@ A VoiceAttack profile for changing the active Windows Speech Recognition profile
 
 ## A VoiceAttack and Windows Speech Recognition Primer
 ### Wait, what is VoiceAttack (VA)?
+*Voice-activated control for your PC games and apps.*
+
 More information about the VoiceAttack voice control and macro creation software may be found at www.voiceattack.com. It is an amazingly powerful application that will change the way you think about gaming and interacting with your PC in general.
 
 ### Why should I care about Windows Speech Recognition (WSR) and corresponding profile switching?
