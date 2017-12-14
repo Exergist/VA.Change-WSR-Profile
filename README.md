@@ -1,5 +1,5 @@
 ## What is it?
-A VoiceAttack profile for changing the active Windows Speech Recognition profile. Supporting documentation and source are also provided.
+A VoiceAttack profile for changing the active Windows Speech Recognition profile. Supporting documentation and source code are also provided.
 
 ## A VoiceAttack and Windows Speech Recognition Primer
 ### Wait, what is VoiceAttack (VA)?
