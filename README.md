@@ -68,4 +68,4 @@ Antaniserse and Gangrel for providing feedback during development of the beta ve
 
 Pfeil for fielding many of my VA-related questions when I first got started on the VoiceAttack User Forums as well as for sharing his method for restarting VoiceAttack.
 
-Additional appreciation goes out to the VoiceAttack User Forum moderators and community for helping to build a great place to learn and develop cool stuff with VoiceAttack.
+Additional appreciation goes out to the VoiceAttack User Forum community for helping to build a great place to learn and develop cool stuff with VoiceAttack.
