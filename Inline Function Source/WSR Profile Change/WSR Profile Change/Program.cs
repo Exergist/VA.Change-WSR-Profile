@@ -204,3 +204,4 @@ namespace Change_WSR_Profile
 // https://stackoverflow.com/questions/8935161/how-to-add-a-case-insensitive-option-to-array-indexof
 // https://stackoverflow.com/questions/444798/case-insensitive-containsstring/444818#444818
 // https://stackoverflow.com/questions/541954/how-would-you-count-occurrences-of-a-string-within-a-string
+// http://www.dotnetspider.com/resources/34547-Function-Sort-comma-separated-string.aspx
