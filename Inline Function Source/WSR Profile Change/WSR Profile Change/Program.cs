@@ -99,7 +99,7 @@ namespace Change_WSR_Profile
                     ///VA.SetText("WSRCurrentProfile", CurrentProfileName); // Pass the CurrentProfileName back to VoiceAttack as a text variable
                 }
             }
-            ///VA.SetText("WSRProfileNames", ProfileNameString); // Pass the list of available profile names back to VoiceAttack as a text variable
+            ///VA.SetText("WSRProfileNames", SortDelimitedString(ProfileNameString, ';')); // Pass the list of available profile names (sorted alphabetically) back to VoiceAttack as a text variable
             #endregion
             #endregion
 
@@ -181,6 +181,21 @@ namespace Change_WSR_Profile
             ///VA.SetText("WSRChangeResult", ChangeResult); // Pass the ChangeResult back to VoiceAttack as a text variable
             #endregion
         }
+        
+        #region Function for sorting a delimited string
+        public static string SortDelimitedString(string name, char delimiter)
+        {
+            name = name.Replace(delimiter + " ", delimiter.ToString()); // Replace delimiting "; " with delimiting ";"
+            string[] stringArray = name.Split(delimiter); // Split up delimited string and store each item within stringArray
+            Array.Sort(stringArray); // Sort the stringArray
+            string returnValue = ""; // Initialize string variable for storing sorted item list
+            for (int i = stringArray.GetLowerBound(0); i <= stringArray.GetUpperBound(0); i++) // Loop through all the items in stringArray
+            {
+                returnValue = returnValue + stringArray[i] + delimiter + " "; // Rebuild the original string that is now sorted
+            }
+            return returnValue.Remove(returnValue.Length - 2, 2); // Remove last 2 characters from returnValue before sending it back to main
+        }
+        #endregion
     }
 }
 
