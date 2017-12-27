@@ -50,20 +50,20 @@ The voice or variable-based commands are used like any other VA command. However
    - **For the WSR profile change to be recognized by VoiceAttack you need to perform the WSR profile change and then switch VoiceAttack profiles (restarting VoiceAttack achieves the same effect).** Every time you switch VoiceAttack profiles VA instantiates an instance of a speech engine object and holds on to that object. That instance is based on settings at the time of instantiation. The speech object is only destroyed when a profile changes, so a VA profile switch is needed for the new WSR profile to be recognized by VA. Restarting VoiceAttack after performing the WSR profile change also achieves the same effect, and it is easier to implement so that the WSR profile switching works "out of the box" for everyone. I chose to include code in the VA command that will create and run a batch file ("RestartVoiceAttack.bat") and then close VoiceAttack. The batch file waits for the calling instance of VoiceAttack to close before launching a new VoiceAttack instance. This is the "action that execute applications and/or kills processes" mentioned previously during profile import. 
 
 Here is the general order of operations for what happens when you attempt to switch profiles:
-   1. Activate the voice or variable-based command to initiate a WSR profile switch
-   2. VoiceAttack obtains the desired profile name via the spoken command or from within the text variable (depending on which command type you used)
+   1. Activate the voice or variable-based command to initiate a WSR profile switch.
+   2. VoiceAttack obtains the desired profile name via the spoken command or from within the text variable (depending on which command type you used).
    3. Function for processing the profile switch initiates:
       1. Check for presence of Speech Properties Window and terminate command if the window is found.
-      2. Perform actual WSR profile data retrieval and attempt to switch WSR profiles
-      3. If an error is encountered then output the detail to the VoiceAttack event log and terminate the command
+      2. Perform actual WSR profile data retrieval and attempt to switch WSR profiles.
+      3. If an error is encountered then output the detail to the VoiceAttack event log and terminate the command.
       4. If no error is encountered then output WSR profile data and change status, and (if the WSR profile switch was successful) initiate function to restart VoiceAttack. 
    4. The VoiceAttack restart function then performs the following:
       1. Create a folder within the VoiceAttack's "Apps" folder for housing the batch file for restarting VoiceAttack. This process will only occur if the folder doesn't already exist.
       2. Create the batch file for restarting VoiceAttack. Again, this will only occur if the batch file doesn't already exist.
-      3. Batch file runs 
-      4. VoiceAttack closes itself
-      5. Batch file process detects closure of VoiceAttack and subsequently restarts VoiceAttack
-   5. VoiceAttack automatically runs the "Profile Start" command and outputs final WSR profile change detail to the VoiceAttack event log
+      3. Batch file runs.
+      4. VoiceAttack closes itself.
+      5. Batch file process detects closure of VoiceAttack and subsequently restarts VoiceAttack.
+   5. VoiceAttack automatically runs the "Profile Start" command and outputs final WSR profile change detail to the VoiceAttack event log.
 
 You can confirm that the WSR profile change is working by performing the following:
    1. Open the Speech Properties window and note which WSR profile is activated. Then close the window. 
