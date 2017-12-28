@@ -21,7 +21,7 @@ WSR allows you to use your voice to control your (Windows) computer, and VA dram
 Here's the catch: **changing WSR profiles through the Windows interface is cumbersome. That is where VA.Change-WSR-Profile comes in.** 
 
 ## How does it work?
-The VA profile "Change WSR Profile" (corresponding to "Change WSR Profile.vap") provides two primary VA commands: 
+The VA profile "Change WSR Profile" provides two primary VA commands: 
  - Change WSR profile by voice command
  - Change WSR profile based on variable
 
@@ -56,16 +56,17 @@ Here is the general order of operations for what happens when you attempt to swi
    3. Function for processing the profile switch initiates:
       1. Check for presence of Speech Properties Window and terminate command if the window is found.
       2. Perform actual WSR profile data retrieval and attempt to switch WSR profiles. As previously mentioned this is done through Windows registry queries and edits. 
-      3. If an error is encountered then output the detail to the VoiceAttack event log and terminate the command.
-      4. If no error is encountered then output WSR profile data and change status, and (if the WSR profile switch was successful) initiate function to restart VoiceAttack. 
+      3. If an error is encountered then output the detail to the VA event log and terminate the command.
+      4. If no error is encountered then output WSR profile data and change status, and (if the WSR profile switch was successful) initiate function to restart VA. 
    4. The VoiceAttack restart function then performs the following:
-      1. Create a folder within the VoiceAttack's "Apps" folder for housing the batch file for restarting VoiceAttack. This process will only occur if the folder doesn't already exist.
+      1. Create a folder within the VoiceAttack's "Apps" folder for housing the batch file for restarting VA. This process will only occur if the folder doesn't already exist.
       2. Create the batch file for restarting VoiceAttack. Again, this will only occur if the batch file doesn't already exist.
       3. Batch file runs.
       4. VoiceAttack closes itself.
-      5. Batch file process detects closure of VoiceAttack and subsequently restarts VoiceAttack.
+      5. Batch file process detects closure of VA and subsequently restarts VA.
    5. VoiceAttack automatically runs the "Profile Start" command and outputs final WSR profile change detail to the VoiceAttack event log.
 
+## How do I know the profile and associated commands are working?
 You can confirm that the WSR profile change is working by performing the following:
    1. Open the Speech Properties window and note which WSR profile is activated. Then close the window. 
    2. Perform the WSR profile change with VA, receive initial confirmation from VA that the switch was successful, VA should restart, then VA should output final confirmation that the switch was successful.
@@ -76,7 +77,7 @@ First and foremost, **[read the VoiceAttack manual](http://voiceattack.com/Voice
 
 If you are having problems with the VA software itself there is a dedicated [VoiceAttack User Forum](http://voiceattack.com/SMF/index.php) where you may seek help. The community is active and full of dedicated users who will help you with your general VA issues. Plus it's a great place to learn more about VA so you can do other super cool things as well as check out profiles and commands that other users have shared. 
 
-~If you are having problems specifically with the VA.Change-WSR-Profile commands or code then head over to the VoiceAttack User Forum, check out the "Issues" section to get an idea for how to provide enough information to request assistance, and then post to the "VA.Change-WSR-Profile" thread within the "Profiles, Commands and Plugins" section of the forum.~ Waiting on official release of VA.Change-WSR-Profile on the VoiceAttack Forum before starting to provide help specifically for VA.Change-WSR-Profile.
+~If you are having problems specifically with the VA.Change-WSR-Profile commands or code then head over to the VoiceAttack User Forum, check out the "Issues" section to get an idea for how to provide enough information to request assistance, and then post to the "Change Speech Recognition Profile" thread within the "Inline Functions" section of the forum.~ Waiting on official release of VA.Change-WSR-Profile on the VoiceAttack Forum before starting to provide help specifically for VA.Change-WSR-Profile.
 
 ## Full Disclosure
 I am one of the moderators on the VoiceAttack User Forums, and I receive no benefits from the use or promotion of the VoiceAttack software. 
@@ -84,8 +85,8 @@ I am one of the moderators on the VoiceAttack User Forums, and I receive no bene
 ## Thanks
 Many thanks go out to Gary (VoiceAttack developer) for giving the world this amazing piece of software, as well as for providing initial feedback about VA.Change-WSR-Profile and some info about VoiceAttack's inner workings. You sir, are the man. 
 
-Antaniserse and Gangrel for providing feedback during development of the beta versions. 
-
 Pfeil for fielding many of my VA-related questions when I first got started on the VoiceAttack User Forums as well as for sharing his method for restarting VoiceAttack.
+
+Antaniserse and Gangrel for providing feedback during development of the beta versions. 
 
 Additional appreciation goes out to the VoiceAttack User Forum community for helping to build a great place to learn and develop cool stuff with VoiceAttack.
