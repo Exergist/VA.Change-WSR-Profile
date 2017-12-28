@@ -69,7 +69,7 @@ Here is the general order of operations for what happens when you attempt to swi
 ## How do I know the profile and associated commands are working?
 You can confirm that the WSR profile change is working by performing the following:
    1. Open the Speech Properties window and note which WSR profile is activated. Then close the window. 
-   2. Perform the WSR profile change with VA, receive initial confirmation from VA that the switch was successful, VA should restart, then VA should output final confirmation that the switch was successful.
+   2. Perform the WSR profile change with VA, receive initial confirmation from VA that the switch was successful, VA should restart, then VA should output final confirmation that the switch is complete.
    3. Reopen the Speech Properties window and confirm (from Windows' point of view) that the switch was successful. In other words, the profile you activated should now have a checkmark next to its name. 
 
 ## Help I have issues!
