@@ -27,7 +27,7 @@ The VA profile "Change WSR Profile" provides two primary VA commands:
 
 As you might guess the first command allows the user to change WSR profiles using a voice command, and the second command allows the user to change to a specific WSR profile based on the value stored in a text variable. Both commands rely on a C# inline function that interacts with the Windows registry (with a base key path starting at HKEY_CURRENT_USER\Software\Microsoft\Speech\RecoProfiles) to gather information about the user's WSR profiles, perform the actual profile change (via registry edit), and report the results. Feel free to check out the source code to better understand what's happening "under the hood."
 
-## How do I install and use it?
+## How do I install it?
 This is going to be wordy, but I'm trying to cater the content to all users and be thorough. 
 
 1. According to www.voiceattack.com "VoiceAttack works with Windows 10 all the way back to Vista." So you've got to have one of those versions of Windows to even use VA. Note though that I've only tested VA.Change-WSR-Profile in Windows 7 and Windows 10. 
